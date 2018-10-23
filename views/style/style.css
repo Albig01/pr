@@ -1,0 +1,29 @@
+header{
+	border: 4px double black;
+}
+p{
+	color: white;
+	background-color: gray;
+}
+.div1{
+	/*border: 2px solid black;*/
+	vertical-align: middle;
+	display: inline-block;
+	padding-left: 10px;
+}
+body{
+	 background-image: url("<?php echo $$_SERVER['DOCUMENT_ROOT'] . 'image/2.jpg';?>");
+	 
+}
+footer{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  border: 4px double black;
+}
+div.cont{
+	overflow: auto;
+	height: 645px;
+}
